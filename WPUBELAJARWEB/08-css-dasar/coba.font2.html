@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - Font Styling</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Storm&display=swap");
+
+      @font-face {
+        font-family: Lobster;
+        src: url("fonts/LobsterTwo-Regular.ttf") format(truetype);
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        color: crimson;
+        font-size: 60px;
+        text-align: center;
+        font-family: "Rubik Storm", sans-serif;
+        font-weight: 300;
+      }
+
+      p {
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+        font-family: Oswald, Arial, Helvetica, sans-serif;
+      }
+
+      .font-Lobster {
+        font-family: Lobster, Arial, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello World</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+      veniam neque molestias rem obcaecati corporis molestiae, consequuntur odio
+      facere laborum amet libero distinctio, nesciunt eligendi et exercitationem
+      natus dignissimos quibusdam.
+    </p>
+    <p class="font-Lobster">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+      exercitationem! Vel aliquid facere, aut quae porro quis illum error
+      necessitatibus laboriosam. Reprehenderit, delectus officiis! Commodi
+      explicabo magni exercitationem est laborum!
+    </p>
+  </body>
+</html>
